@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.git/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+data/recipe_pdfs/
+data/recipes/
+results/embeddings.npy
+results/recipe_index.faiss
+results/chunk_metadata.pkl
+.DS_Store
+.vscode/
+.idea/

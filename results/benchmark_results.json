@@ -1,0 +1,220 @@
+{
+  "nprobe_benchmark": [
+    {
+      "probes": 1,
+      "query": "What can I make with leftover chicken and lemon?\u2026",
+      "recall@5": 0.67,
+      "latency_ms": 25.97,
+      "top_titles": [
+        "Quick Leftover Chicken Lemon Pasta",
+        "Lemon Herb Roasted Chicken",
+        "Thai Shrimp Soup",
+        "Japanese Salmon Fillet Casserole",
+        "Indian Tofu Curry"
+      ]
+    },
+    {
+      "probes": 1,
+      "query": "Give me a low-carb dessert under 30 minutes\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 10.93,
+      "top_titles": [
+        "Overnight Oats Three Ways",
+        "Overnight Oats Three Ways",
+        "Indian Shrimp Noodle Dish",
+        "Spanish Chickpeas Grain Bowl",
+        "Indian Chicken Thighs Pasta"
+      ]
+    },
+    {
+      "probes": 1,
+      "query": "Easy vegan dinner with vegetables\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 28.53,
+      "top_titles": [
+        "Low-Carb Zucchini Noodles with Pesto",
+        "Mexican Lentils Salad",
+        "Chinese Lamb Shoulder Curry",
+        "Lebanese Lentils One-Pan Meal",
+        "Ethiopian Chickpeas Grain Bowl"
+      ]
+    },
+    {
+      "probes": 5,
+      "query": "What can I make with leftover chicken and lemon?\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 32.66,
+      "top_titles": [
+        "Italian Chicken Breast Tacos",
+        "Vietnamese Chicken Breast Casserole",
+        "Thai Chicken Breast Tacos",
+        "Middle Eastern Chicken Thighs One-Pan Meal",
+        "Lebanese Chicken Thighs Stir Fry"
+      ]
+    },
+    {
+      "probes": 5,
+      "query": "Give me a low-carb dessert under 30 minutes\u2026",
+      "recall@5": 0.33,
+      "latency_ms": 15.25,
+      "top_titles": [
+        "Overnight Oats Three Ways",
+        "Keto Chocolate Mousse",
+        "Spanish Prawns Casserole",
+        "Turkish Tempeh Wrap",
+        "Indian Prawns Soup"
+      ]
+    },
+    {
+      "probes": 5,
+      "query": "Easy vegan dinner with vegetables\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 22.46,
+      "top_titles": [
+        "Low-Carb Zucchini Noodles with Pesto",
+        "French Lamb Shoulder One-Pan Meal",
+        "Peruvian Turkey Breast Stew",
+        "British Turkey Breast Stew",
+        "British Pork Loin Frittata"
+      ]
+    },
+    {
+      "probes": 10,
+      "query": "What can I make with leftover chicken and lemon?\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 29.67,
+      "top_titles": [
+        "Italian Chicken Breast Tacos",
+        "Vietnamese Chicken Breast Casserole",
+        "Thai Chicken Breast Tacos",
+        "Middle Eastern Chicken Thighs One-Pan Meal",
+        "Lebanese Chicken Thighs Stir Fry"
+      ]
+    },
+    {
+      "probes": 10,
+      "query": "Give me a low-carb dessert under 30 minutes\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 26.96,
+      "top_titles": [
+        "Overnight Oats Three Ways",
+        "Thai Prawns Grain Bowl",
+        "Chinese Halloumi Frittata",
+        "Greek Salmon Fillet Soup",
+        "Korean Salmon Fillet Tacos"
+      ]
+    },
+    {
+      "probes": 10,
+      "query": "Easy vegan dinner with vegetables\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 28.47,
+      "top_titles": [
+        "Low-Carb Zucchini Noodles with Pesto",
+        "French Lamb Shoulder One-Pan Meal",
+        "Peruvian Turkey Breast Stew",
+        "British Turkey Breast Stew",
+        "British Pork Loin Frittata"
+      ]
+    },
+    {
+      "probes": 50,
+      "query": "What can I make with leftover chicken and lemon?\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 76.31,
+      "top_titles": [
+        "Italian Chicken Breast Tacos",
+        "Vietnamese Chicken Breast Casserole",
+        "Thai Chicken Breast Tacos",
+        "Middle Eastern Chicken Thighs One-Pan Meal",
+        "Lebanese Chicken Thighs Stir Fry"
+      ]
+    },
+    {
+      "probes": 50,
+      "query": "Give me a low-carb dessert under 30 minutes\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 75.59,
+      "top_titles": [
+        "Overnight Oats Three Ways",
+        "Thai Prawns Grain Bowl",
+        "Italian Black Beans Grain Bowl",
+        "Chinese Halloumi Frittata",
+        "Greek Salmon Fillet Soup"
+      ]
+    },
+    {
+      "probes": 50,
+      "query": "Easy vegan dinner with vegetables\u2026",
+      "recall@5": 0.0,
+      "latency_ms": 83.02,
+      "top_titles": [
+        "Low-Carb Zucchini Noodles with Pesto",
+        "French Lamb Shoulder One-Pan Meal",
+        "Peruvian Turkey Breast Stew",
+        "British Turkey Breast Stew",
+        "British Pork Loin Frittata"
+      ]
+    }
+  ],
+  "filter_benchmark": [
+    {
+      "query": "Give me a low-carb dessert under 30 minutes\u2026",
+      "filters": {
+        "dietary": [
+          "low-carb"
+        ],
+        "max_time": 30,
+        "max_cal": null
+      },
+      "candidate_pool": 1560,
+      "used_filter": true,
+      "recall_unfiltered": 0.0,
+      "recall_filtered": 0.5,
+      "latency_unfiltered_ms": 32.91,
+      "latency_filtered_ms": 31.4
+    },
+    {
+      "query": "Easy vegan dinner with vegetables\u2026",
+      "filters": {
+        "dietary": [
+          "vegan"
+        ],
+        "max_time": null,
+        "max_cal": null
+      },
+      "candidate_pool": 6051,
+      "used_filter": true,
+      "recall_unfiltered": 0.0,
+      "recall_filtered": 0.0,
+      "latency_unfiltered_ms": 26.0,
+      "latency_filtered_ms": 35.36
+    },
+    {
+      "query": "Quick gluten-free high-protein meal under 30 minutes\u2026",
+      "filters": {
+        "dietary": [
+          "gluten-free"
+        ],
+        "max_time": 30,
+        "max_cal": null
+      },
+      "candidate_pool": 3819,
+      "used_filter": true,
+      "recall_unfiltered": 0.0,
+      "recall_filtered": 0.0,
+      "latency_unfiltered_ms": 46.61,
+      "latency_filtered_ms": 22.27
+    }
+  ],
+  "corpus_stats": {
+    "recipes": 10000,
+    "total_chunks": 30000,
+    "section_counts": {
+      "ingredients": 10000,
+      "method": 10000,
+      "tips": 10000
+    },
+    "backend": "pgvector"
+  }
+}

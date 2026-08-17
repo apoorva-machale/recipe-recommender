@@ -1,0 +1,49 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Test / lint caches ────────────────────────────────────────────────────────
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ── Environment / Secrets ─────────────────────────────────────────────────────
+.env
+.env.*
+*.env
+secrets.json
+credentials.json
+
+# ── Generated corpus (regenerate with: python3 data/generate_pdfs.py) ─────────
+data/recipe_pdfs/
+data/recipes/
+
+# ── Large binary / generated results ──────────────────────────────────────────
+results/embeddings.npy
+results/recipe_index.faiss
+results/chunk_metadata.pkl
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+
+# ── Personal working notes (not published) ────────────────────────────────────
+PROGRESS.md
+DEVELOPMENT.md
+AGENTS.md
+
+# ── macOS / editor ────────────────────────────────────────────────────────────
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
