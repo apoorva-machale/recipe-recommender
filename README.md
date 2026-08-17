@@ -42,8 +42,8 @@ filtering (dietary tags, cook time, calories).
 
 ```bash
 # 1. Clone and enter the project
-git clone https://github.com/apoorva-machale/Grind.git
-cd Grind/recipe_recommender
+git clone https://github.com/apoorva-machale/recipe-recommender.git
+cd recipe-recommender
 
 # 2. Set up the environment and start the database
 make setup        # create venv + install dependencies
